@@ -86,7 +86,7 @@
   inset: 8pt,
 )
 #show table.cell.where(y: 0): set text(weight: "bold")
-#show table.cell.where(y: 0): set cell(fill: rgb("#f1f5f9"))
+#show table.cell.where(y: 0): set table.cell(fill: rgb("#f1f5f9"))
 
 // 링크 스타일
 #show link: it => text(fill: rgb("#8b5cf6"), it)
